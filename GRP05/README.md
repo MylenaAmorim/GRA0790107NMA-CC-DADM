@@ -1,7 +1,7 @@
 # Inicialização:
 
-- Entrar na pasta ```npm install```
-- No terminal rodar ```ionic serve --lab --open```
+- Entrar na pasta urna-com-ionic e rodar ```npm install```
+- No terminal rodar ```ionic serve --lab --open``` para inicar o servidor
 
 # Membros
 
