@@ -1,19 +1,18 @@
-import { IonicModule } from '@ionic/angular';
-import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { VotacaoPage } from './votacao.page';
-import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
+
+import { IonicModule } from '@ionic/angular';
 
 import { VotacaoPageRoutingModule } from './votacao-routing.module';
 
+import { VotacaoPage } from './votacao.page';
+
 @NgModule({
   imports: [
-    IonicModule,
     CommonModule,
     FormsModule,
-    ExploreContainerComponentModule,
+    IonicModule,
     VotacaoPageRoutingModule
   ],
   declarations: [VotacaoPage]

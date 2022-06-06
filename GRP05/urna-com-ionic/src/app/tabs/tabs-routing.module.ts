@@ -13,7 +13,7 @@ const routes: Routes = [
       },
       {
         path: 'votacao',
-        loadChildren: () => import('../votacaoss/votacao.module').then(m => m.VotacaoPageModule)
+        loadChildren: () => import('../votacao/votacao.module').then(m => m.VotacaoPageModule)
       },
       {
         path: 'tab3',
